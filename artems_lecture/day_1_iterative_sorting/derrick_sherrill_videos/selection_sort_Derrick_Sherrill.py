@@ -13,7 +13,7 @@ def selection_sort(a_list):
         # set the first element in the unsorted list as default min value
         min_value = i
 
-        # for every element to the right 
+        # for every element to the right of i
         for j in range(i + 1, len(a_list)):
             # if element is less than current min value
             if a_list[j] < a_list[min_value]:
